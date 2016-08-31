@@ -1,0 +1,913 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+
+.tw {
+  font-family:Helvetica, sans-serif, Arial, 'LiHei Pro', '微軟正黑體','新細明體';
+  /*font-family: 'Palanquin','cwTeXHei',"微軟正黑體", sans-serif;*/
+}
+
+html, body {
+  font-family:Helvetica, sans-serif, Arial, 'LiHei Pro', '微軟正黑體','新細明體';
+	 /*font-family: 'Palanquin','cwTeXHei',"微軟正黑體", sans-serif;*/
+}
+
+
+
+/**{
+  font-family:Helvetica, sans-serif, Arial, 'LiHei Pro', '微軟正黑體','新細明體';
+
+}*/
+
+
+
+@media(max-width:768px){
+
+  body{
+    margin: 0 ;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+}
+
+section{
+
+  width: 100%;
+}
+
+#NAVSTYLE{
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #58595B;
+  color:white;
+
+}
+
+/*.BANNER{
+  display: block;
+  width:auto;
+  height:auto;
+  background:url(../images/banner.jpg) bottom right;
+  background-size: cover;
+  padding:250px 100px 250px ;
+}
+.BANNER h1{
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.BUTTON1{
+  display: block;
+  margin-bottom: 10px;
+}*/
+.COMEFROME_LEFT{
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  background-image: url(../images/PM_bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-color: #C8C6C8;
+  min-height: 530px;
+  padding-left: 10%;
+}
+.COMEFROME_LEFT .TITLE{
+  padding-top: 200px;
+  font-size: 30px;
+  color: white;
+  line-height: 45px;
+}
+
+.COMEFROME_RIGHT{
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  /*background-image: url(../images/PM_bgright.jpg);*/
+  min-height: 580px;
+  background-color: #00AEEF;
+  padding-bottom: 40px;
+}
+
+.COMEFROME_RIGHT img{
+  margin: 0 auto;
+  margin-top: 40px;
+
+  /*padding-top: 10%;*/
+}
+.COMEFROME_RIGHT h2{
+  font-size: 30px;
+  color:white;
+  line-height: 50px;
+  text-align: center;
+  /*font-size: 15px;*/
+  padding-top: 40px;
+
+}
+
+.PRODUCTSECTION{
+  margin: 0 auto;
+  background-color: white;
+  height: auto;
+  text-align: center;
+
+  padding-top: 100px;
+  padding-bottom: 5px;
+
+
+  /*background-size: cover;*/
+  /*min-height: 500px;*/
+}
+
+
+.PRODUCTSECTION h2{
+  /*font-weight: bold;*/
+  padding-bottom: 20px;
+  color: #585858;
+  font-family: 微軟正黑體;
+  line-height: 45px;
+  /*letter-spacing: 1.5px;*/
+  font-size: 30px;
+
+}
+.PRODUCTSECTION span{
+  display: inline-block;
+	width: 20em;
+	border-bottom: 1px solid #585858;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.product_bigicon{
+  float: left;
+  clear:both;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 18px;
+  padding-right: 5px;
+}
+
+.product_intro_block{
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+.APPLIC{
+  display:block;
+
+  /*background-size: cover;*/
+  /*min-height: 500px;*/
+}
+
+
+.APPLIC h2{
+  /*font-weight: bold;*/
+  padding-bottom: 20px;
+  color: #585858;
+  font-family: 微軟正黑體;
+  line-height: 45px;
+  /*letter-spacing: 1.5px;*/
+  font-size: 30px;
+
+}
+.APPLIC span{
+  clear:both;
+  display: inline-block;
+	width: 200px;
+	border-bottom: 1px solid #585858;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+
+
+.product360{
+  text-align:center;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+
+.SPEC_BG{
+width: auto;
+height: auto;
+display: block;
+background-color: grey;
+background-image: url(../images/spec_bg.jpg);
+background-position: right bottom;
+background-size: cover;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+
+.SPEC_BG h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.SPEC_BG table{
+  margin:0 auto;
+  font-size: 18px;
+
+}
+.SPEC_BG th{
+font-weight: bolder;
+
+}
+
+.SPEC_BG span{
+  display: inline-block;
+  margin: 0 auto;
+	width: 200px;
+	border-bottom: 1px solid #00AEEF;
+  margin-top: 20px;
+  margin-bottom: 80px;
+
+}
+
+
+@media(max-width:768px){
+  .COMEFROME_LEFT .TITLE{
+    font-size: 30px;
+
+  }
+
+  .COMEFROME_RIGHT{
+    min-height: 400px;
+
+  }
+}
+.slideshow
+{
+    margin-bottom: 5em;
+}
+
+/* for banner text only*/
+.slideshow_banner1{
+    /*font-size: 185%;*/
+    margin-left: 50%;
+    margin-top: -52%;
+    color: rgb(69, 70, 70);
+    /*min-width: 18em;*/
+}
+
+.slideshow_banner2{
+  /*font-size: 3em;*/
+  margin-left: 18%;
+  margin-top: -37%;
+  color: rgb(117, 115, 115);
+  /*min-width: 12em;*/
+}
+
+/*  How It works - Bullet Point Style    */
+
+h1
+{
+    text-align: left;
+    font-family: 'Palanquin','cwTeXHei',"微軟正黑體", sans-serif;
+    font-size: 3em;
+    color: #8c8c8c;
+}
+
+h2 h3 h4 h5 h6 {
+    font-family: 'Palanquin','cwTeXHei',"微軟正黑體", sans-serif;
+}
+
+.section-how-it-work h1
+{
+    margin-top: 2em;
+}
+
+.section-how-it-work h4
+{
+    text-align: left;
+}
+
+.section-how-it-work h6
+{
+    text-align: left;
+    min-height: 4em;
+}
+
+
+.section-divider div h1
+{
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+.spectable
+{
+    margin-left: 7em;
+    margin-right: 3em;
+}
+
+
+/*
+@media screen and (min-width:700px)
+{
+    .howtoinstall-skt-usage
+    {
+        background-image: url('../images/skt_bg_md.jpg');
+        background-size: cover;
+        height: 50em;
+    }
+}
+*/
+
+
+.wireplug
+{
+    margin-top: 10em;
+}
+
+/*
+.wireplug h1{
+	margin-left: 5em;
+}
+.wireplug p{
+	margin-left: 5em;
+} */
+
+
+
+
+
+
+
+.support-skt
+{
+    margin-top: 5em;
+    background-image: url('../images/19.jpg');
+    background-size: cover;
+    min-height: 50em;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+}
+
+
+
+
+.support-skt-img
+{
+    margin-top: 10em;
+}
+
+.pcstick-product-img{
+/*margin-left: 10em;
+  height: 40em;
+  width: 30em;*/
+}
+
+
+/* Product Picture for Mobile  */
+.specimg_mobile{
+   display: none;
+}
+
+/*   360 icon*/
+.eql360icon_css{
+
+  margin-bottom: 2em;
+  margin-top: -3em;
+  min-width: 100px;
+
+}
+
+
+/* 360 picture */
+.specimg360
+{
+    margin-bottom: 5em;
+    min-height: 20em;
+    background-image: url('../images/360ex/360_1.jpg');
+}
+
+/*.PIC360{display:none;overflow:hidden;}
+.PIC360 UL,.PIC360 LI{margin:0; padding:0;}
+.PIC360 LI{list-style:none;}
+.PIC360{
+  margin-top: 2em;
+  margin-left: 15em;
+}*/
+
+/* QR code */
+.qrcode-download
+{
+}
+
+.support-skt div h4
+{
+    color: #cbe0e4;
+    text-align: center;
+}
+
+.support-skt span h6
+{
+    color: #27b0cc;
+    text-align: center;
+}
+
+.iOSqrcode-img
+{
+    margin-top: 10em;
+    height: 20%;
+    width: 20%;
+}
+
+.and-qrcode-img
+{
+    height: 20%;
+    width: 20%;
+}
+
+
+@media (max-width: 767px) {
+
+
+
+  .scenario_pics1{
+
+  background-image: url('../images/pcstick_scenario_1_md.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 30em;
+  }
+  .scenario_pics2{
+
+  background-image: url('../images/pcstick_scenario_2_md.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 30em;
+
+
+  }
+  .scenario_pics3{
+
+  display: block;
+  background-image: url('../images/pcstick_scenario_3_md.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 30em;
+  }
+
+  .plug_scenario{
+    display:none;
+  }
+
+  .multisize_plug_scen{
+    display: block;
+    background-image: url('../images/PC_stick_io_introduction._mdjpg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 33em;
+  }
+
+
+  .normalsize_scenario{
+    display:none;
+  }
+
+  .howtoinstall-skt-usage h1
+  {
+      margin-top: 2em;
+      margin-left: 1em;
+      color: #676553;
+      padding-bottom: 0.2em;
+  }
+
+  .howtoinstall-skt-usage h4
+  {
+      color: #676553;
+      margin-top: 0.5em;
+      margin-left: 1.8em;
+      padding-bottom: 10em;
+  }
+
+
+  /*.specimg_mobile{
+     display:block;
+     width:11em;
+     margin-bottom: 5em;
+  }*/
+  .specimg360 {
+
+    background-image: url('../images/360ex/360_1.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+  }
+
+  .spectable
+  {
+      margin-left: 0em;
+      margin-right: 3em;
+  }
+
+  .wireinstall-overall
+  {
+      margin-top: 4em;
+      background-image: url('../images/pc_stick_wire_install_scenario_md_f.jpg');
+      background-size: cover;
+      min-height: 36em;
+      background-repeat: no-repeat;
+
+  }
+
+  .tw .wireinstall-overall
+  {
+      margin-top: 4em;
+      background-image: url('../images/pc_stick_wire_install_scenario_md_fc.jpg');
+      background-size: cover;
+      min-height: 36em;
+      background-repeat: no-repeat;
+
+  }
+
+  .wireplug
+  {
+      margin-top: 13em;
+  }
+  .wireplug h1{
+      margin-left: 1em;
+  }
+
+  .wireplug p{
+      margin-left: 3em;
+      margin-bottom: 5em;
+  }
+}
+
+@media (max-width: 565px) {
+  .wireinstall-overall
+  {
+      margin-top: 4em;
+      background-image: url('../images/pc_stick_wire_install_scenario_md_f.jpg');
+      background-size: cover;
+      min-height: 28em;
+      background-repeat: no-repeat;
+
+  }
+
+  .tw .wireinstall-overall
+  {
+      margin-top: 4em;
+      background-image: url('../images/pc_stick_wire_install_scenario_md_fc.jpg');
+      background-size: cover;
+      min-height: 28em;
+      background-repeat: no-repeat;
+
+  }
+
+  .specimg_mobile{
+     display: none;
+
+
+  }
+  .specimg360 {
+    display:block;
+    /*width:9em;*/
+    /*margin-bottom: 5em;*/
+    background-image: url('../images/360ex/360_1.jpg');
+    background-image: url('../images/360ex/360_1.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+
+
+  .scenario_pics1{
+
+    min-height: 200px;
+  background-image: url('../images/pcstick_scenario_1_xs.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  display: block;
+  }
+  .scenario_pics2{
+
+    min-height: 200px;
+  background-image: url('../images/pcstick_scenario_2_xs.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  display: block;
+
+  }
+  .scenario_pics3{
+
+  min-height: 200px;
+  display: block;
+  background-image: url('../images/pcstick_scenario_3_xs.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  }
+
+  .normalsize_scenario{
+    display:none;
+  }
+
+  .multisize_plug_scen{
+    display: block;
+    background-image: url('../images/PC_stick_io_introduction._xs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20em;
+  }
+
+
+  .normalsize_scenario{
+    display:none;
+  }
+
+
+  .specimg_mobile{
+     display:block;
+     width:7em;
+    margin-bottom: 3em;
+  }
+
+.specimg360 {
+  display: none;
+}
+  .spectable
+  {
+      margin-left: 0em;
+      margin-right: 3em;
+
+  }
+
+  .eql360icon_css{
+  display: none;
+
+  }
+}
+
+@media (max-width: 420px) {
+  .wireinstall-overall
+  {
+      margin-top: 5em;
+      background-image: url('../images/pc_stick_wire_install_scenario_xs_f.jpg');
+      background-size: cover;
+      min-height: 40em;
+      background-repeat: no-repeat;
+
+  }
+
+  .tw .wireinstall-overall
+  {
+      margin-top: 5em;
+      background-image: url('../images/pc_stick_wire_install_scenario_xs_fc.jpg');
+      background-size: cover;
+      min-height: 40em;
+      background-repeat: no-repeat;
+
+  }
+}
+
+@media (max-width: 380px) {
+
+  .wireinstall-overall
+  {
+      margin-top: 5em;
+      background-image: url('../images/pc_stick_wire_install_scenario_xs_f.jpg');
+      background-size: cover;
+      min-height: 38em;
+      background-repeat: no-repeat;
+
+  }
+
+  .tw .wireinstall-overall
+  {
+      margin-top: 5em;
+      background-image: url('../images/pc_stick_wire_install_scenario_xs_fc.jpg');
+      background-size: cover;
+      min-height: 38em;
+      background-repeat: no-repeat;
+
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+@media (min-width: 980px) {
+
+
+}
+
+@media (min-width: 1200px) {
+
+
+}
+
+.video-position{
+  margin:auto;
+}
+
+.videoview {
+  min-width:100%;
+  min-height: 30em;
+  margin: auto;
+
+}
+
+.DOWNLOAD{
+  padding: 100px 0;
+
+}
+
+.DOWNLOAD_TITLE h2{
+
+  text-align: center;
+  font-size: 30px;
+  color: #00AEEF;
+  font-family: 微軟正黑體;
+  line-height: 38px;
+  margin-top: 15px;
+  font-weight: bolder;
+}
+
+.DOWNLOAD_BOX{
+  display: block;
+/*  margin: 30px 0px;*/
+/*border: 1px solid #00AEEF;*/
+  padding: 30px 15px ;
+}
+.DOWNLOAD_BOX img{
+  margin: 0 auto;
+margin-top: 30px;
+
+}
+.DOWNLOAD_BOX p{
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+  font-family: 微軟正黑體;
+  padding-bottom: 40px;
+}
+.DOWNLOAD_BOX .p1{
+  text-align: center;
+  font-size: 18px;
+  line-height: 50px;
+  font-family: 微軟正黑體;
+
+}
+
+.DOWNLOAD_BOX .p2{
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 微軟正黑體;
+  padding: 0 50px;
+  color: #808285;
+}
+
+.DOWNLOAD_BOX h2{
+font-weight:bolder;
+color: #00C0F3;
+text-align: center;
+
+}
+.DOWNLOAD_BOX a{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.DOWNLOAD_BOX.DOWNLOAD_MANUAL{
+  position: relative;
+	overflow: hidden;
+	width: 255px;
+	height: 344px;
+  background-color: red;
+}
+
+
+.overlay a{
+	background-color: #000;
+	opacity: 0.5;
+  -webkit-transition: opacity 0.4s linear;
+	-moz-transition: opacity 0.4s linear;
+	-o-transition: opacity 0.4s linear;
+	transition: opacity 0.4s linear;
+}
+
+
+
+.BUTTON_BOX{
+  margin:0 auto;
+  display:block;
+  background:#00C0F3;
+  border-radius:0px;
+  color:#FFFFFF;
+
+  margin-top: 20px;
+
+  font-size:1.3em;
+  font-weight:400;
+  letter-spacing:0.2em;
+  text-align: center;
+  padding:0.7em 0;
+  text-decoration:none;
+  text-transform:uppercase;
+  transition:background 0.3s ease-in-out;
+
+
+}
+
+.DOWNLOAD_BOX a:hover{
+    display:block;
+background-color:#3C55A4;
+color:#00C0F3;
+
+}
+
+
+
+
+
+
+/*---------------------Sara added--------------------*/
+
+.scen_pic1 {
+	background:url(../images/pcstick_scenario_1.jpg) center no-repeat;
+	background-size:cover;
+	height:30em;
+}
+
+.scen_pic2 {
+	background:url(../images/pcstick_scenario_2.jpg) center no-repeat;
+	background-size:cover;
+	height:30em;
+}
+
+.scen_pic3 {
+	background:url(../images/pcstick_scenario_3.jpg) center no-repeat;
+	background-size:cover;
+	height:30em;
+}
+
+
+
+
+.intro_web {
+	display:block;
+}
+
+.intro_mobile {
+	display:none;
+}
+
+.team-item {
+	min-height:350px;
+	height:350px \9;
+}
+@media (max-width: 768px) {
+	
+}
+
+@media (max-width: 552px) {
+	.team-item {
+	  min-height:320px;
+	  height:320px \9;
+    }
+	
+	.scen_pic1, .scen_pic2, .scen_pic3 {
+	  height:20em;
+	}
+}
+
+@media (max-width: 420px) {
+	.intro_mobile {
+		display:block;
+    }
+	.intro_web {
+		display:none;
+    }
+	
+	.team-item {
+	  min-height:200px;
+	  height:200px \9;
+    }
+}
+
+
+
