@@ -1,5 +1,5 @@
 [
-{
+   {
       "lang_title": "歡迎來到EQL - PC Stick網站",
       "lang_navproduct": "產品",
       "lang_navscenario": "應用",
@@ -8,6 +8,7 @@
       "lang_navfaq": "常見問題",
       "lang_navch": "TW - 繁體中文",
       "lang_naven": "EN - 英文",
+      "lang_navshop": "線上商店",
       "lang_Pdt_intro": "產品介紹",
       "lang_smartestpc": "小巧輕薄",
       "lang_smartestpc_cont": "世界上最小的Windows OS裝置",
@@ -52,8 +53,8 @@
       "lang_skt_title": "多媒體影音串流",
       "lang_skt_text01": "手機就是你的鍵盤跟滑鼠",
       "lang_download_text03": "更多介紹"
-    },
-    {
+   },
+   {
       "lang_title": "Welcome to EQL - PC Stick",
       "lang_navproduct": "Product Intro",
       "lang_navscenario": "Scenario",
@@ -62,6 +63,7 @@
       "lang_navfaq": "FAQ",
       "lang_navch": "TW - Chinese",
       "lang_naven": "EN - English",
+      "lang_navshop": "Online Shop",
       "lang_Pdt_intro": "Product Introduction",
       "lang_smartestpc": "The Smallest PC",
       "lang_smartestpc_cont": "A pocket-size PC only 11 cm long and 9.8mm thick",
@@ -106,5 +108,5 @@
       "lang_skt_title": "Media Streaming",
       "lang_skt_text01": "Control your PC by ShareKanTan",
       "lang_download_text03": "More"
-}
+   }
 ]

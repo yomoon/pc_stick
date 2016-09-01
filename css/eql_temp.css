@@ -141,13 +141,13 @@ html, body {
 	{
 		display: inline-block;
 		margin-top: 14px;
-		padding: 8px 20px;
+		padding: 8px 10px;
 		background: #00C0F3;
-		letter-spacing: 2px;
+		letter-spacing: 1px;
 		text-decoration: none;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		font-weight: 400;
-		font-size: 16px;
+		font-size: 14px;
 		color: #fff;
 		border-radius: 3px;
 		-webkit-transition: background .3s ease-in-out;
